@@ -7,13 +7,62 @@
 
 html {
   font-size: 18px;
+  font-family: Helvetica;
 }
 
 body {
   line-height: 1.4;
+  background-color: white;
+  color: black;
 }
 
 /* Company Header */
 
 .company {
+  display: flex;
+  height: 30rem;
+  width: 100%;
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.header_navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+
+.logo_title, .nav_links {
+  display: flex;
+  align-items: center;
+}
+
+.logo_title img {
+  height: 1.5rem;
+  padding: 0 1rem;
+}
+
+.nav_links a {
+  padding: 1rem;
+  display: inline-block;
+  text-decoration: none;
 }
